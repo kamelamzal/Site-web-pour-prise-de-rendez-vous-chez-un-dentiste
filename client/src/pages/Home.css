@@ -1,0 +1,99 @@
+.home {
+  position: relative; /* ✅ Nécessaire pour que `absolute` fonctionne bien */
+  text-align: center; /* ✅ Permet de centrer le contenu sauf le logo */
+  font-family: Arial, sans-serif;
+}
+
+/* ✅ Placement du logo en haut à gauche SEUL */
+.logo-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  z-index: 1000; /* ✅ Assure que le logo est au-dessus de tout */
+}
+
+/* ✅ Taille et animation du logo */
+.logo {
+  width: 200px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+  
+  
+
+  /* Bannière */
+  .hero {
+    background: url("https://source.unsplash.com/1600x900/?dentist") center/cover;
+    padding: 100px 20px;
+    color: white;
+  }
+  
+  .hero-content {
+    background: rgba(30, 183, 70, 0.5);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0254f8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border:none;
+  }
+  
+  .btn:hover {
+    background: #0b65c6;
+  }
+  
+  /* Comment ça marche */
+  .how-it-works {
+    padding: 50px 20px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .step {
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  /* Services */
+  .services {
+    background: #f9f9f9;
+    padding: 50px 20px;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .service {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,30 @@
+.dentist-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+  }
+  
+  .dentist-card h3 {
+    color: #007bff;
+  }
+  
+  .dentist-card p {
+    margin: 5px 0;
+  }
+  
+  .dentist-card button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dentist-card button:hover {
+    background: #218838;
+  }
+  
